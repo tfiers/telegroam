@@ -256,7 +256,7 @@ async function updateFromTelegram () {
 
           roamAlphaAPI.createBlock({
             location: { "parent-uid": todayUid, order: maxOrder + i },
-            block: { uid, string: `[[telegroam]], \`${hhmm}`\: ${text}` }
+            block: { uid, string: `[[telegroam]], \`${hhmm}\`: ${text}` }
           })
 
           async function insertFile (fileid, generate) {
